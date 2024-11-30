@@ -1,0 +1,57 @@
+#cafe{
+    position: relative;
+    text-align: center;
+
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+#contacto{
+    position: relative;
+    left: 75%;
+
+}
+#tele{
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: rgb(248, 227, 200);
+
+}
+h1{
+    text-align: center;
+    color: rgb(114, 29, 29);
+}
+.letras{
+    color: rgb(184, 38, 38);
+}
+.formulario {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 174, 0, 0.253);
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  .boton{
+    width: 100%;
+    padding: 10px;
+    background-color: #dfa62d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="text"], input[type="email"], input[type="number"] input[type="alergias"] input[type="personas"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
